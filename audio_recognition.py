@@ -8,7 +8,7 @@ from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
 import threading
 import time
 
-torch.random.manual_seed(31)
+torch.random.manual_seed(47)
 
 class AudioInference():
     def __init__(self,model_name):
